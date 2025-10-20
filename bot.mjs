@@ -40,6 +40,8 @@ async function criarPagamento(valorCentavos) {
 // 🧭 /start → mostra os planos
 bot.onText(/\/start/, async (msg) => {
   const chatId = msg.chat.id;
+  console.log(`Novo usuário iniciado: ${chatId}`);
+  
 
   const texto = `
 🔥 ⤴️ Veja no vídeo como é o VIP por dentro.
