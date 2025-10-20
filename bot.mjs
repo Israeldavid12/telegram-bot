@@ -1,6 +1,5 @@
 import TelegramBot from "node-telegram-bot-api";
 import fetch from "node-fetch";
-import Pix from "pix-payload";
 import qrcode from "qrcode";
 import fs from "fs";
 import dotenv from "dotenv";
